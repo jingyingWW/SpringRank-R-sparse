@@ -10,7 +10,7 @@ This is an **unofficial** port. It is not affiliated with or endorsed by the ori
 
 ```r
 # install.packages("remotes")
-remotes::install_github("GITHUB-USER/SpringRank-R-sparse")
+remotes::install_github("jingyingWW/SpringRank-R-sparse")
 ```
 
 Only depends on `Matrix` (ships with R). `igraph` is optional and only used to warn about disconnected networks when `alpha = 0`.

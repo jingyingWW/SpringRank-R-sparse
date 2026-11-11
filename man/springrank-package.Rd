@@ -15,6 +15,14 @@ De Bacco, C., Larremore, D. B., & Moore, C. (2018). A physical
 model for efficient ranking in networks. \emph{Science Advances}, 4(7),
 eaar8260. \doi{10.1126/sciadv.aar8260}
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/jingyingWW/SpringRank-R-sparse}
+  \item Report bugs at \url{https://github.com/jingyingWW/SpringRank-R-sparse/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Jingying Wang \email{wang@soziologie.uzh.ch} (R port) [copyright holder]
 
