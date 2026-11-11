@@ -63,7 +63,7 @@ General networks: `springrank(A, alpha)` takes an adjacency matrix where `A[i, j
 
 ## Validation
 
-`validation/compare_python.R` compares against the Python package (`pip install springrank`). When the port was written, on simulated networks (400 and 3,000 nodes, `alpha` 0 and 0.5) the ranks agreed to < 1e-7, and β_L and edge predictions agreed to all printed digits. Re-run the script to reproduce this on your own installation.
+`validation/compare_python.R` compares against the Python package (`pip install springrank`). Against version 0.0.10 of the Python package, on simulated networks (400 to 3,000 nodes, `alpha` 0 and 0.5), the ranks agree to < 1e-7, and β_L and edge predictions agree to all printed digits. β_a agrees on the generated network and differs on the sparse mobility-like network (capped at 20 here, about 14 in Python), for the reason given below.
 
 Independently of Python, the unit tests check the solvers against a dense solve, and β_L, σ_a and the energy against the paper's formulas evaluated on dense matrices.
 
