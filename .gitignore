@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+*.Rcheck
+*.tar.gz
+# Never commit register data or outputs
+data/
+*.csv
+*.dta
+*.sas7bdat
+*.parquet
+*.rds

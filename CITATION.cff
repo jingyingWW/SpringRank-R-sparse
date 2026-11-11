@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the original SpringRank paper
+  (preferred citation below). You may additionally cite this R package.
+title: "springrank: Scalable SpringRank for Large Sparse Directed Networks (R)"
+type: software
+version: 0.1.0
+date-released: "2026-11-11"
+license: GPL-3.0-or-later
+authors:
+  - family-names: Wang
+    given-names: Jingying
+preferred-citation:
+  type: article
+  title: "A physical model for efficient ranking in networks"
+  authors:
+    - family-names: De Bacco
+      given-names: Caterina
+    - family-names: Larremore
+      given-names: Daniel B.
+    - family-names: Moore
+      given-names: Cristopher
+  journal: "Science Advances"
+  year: 2018
+  volume: 4
+  issue: 7
+  start: eaar8260
+  doi: 10.1126/sciadv.aar8260
+references:
+  - type: software
+    title: "SpringRank (Python package)"
+    authors:
+      - family-names: Larremore
+        given-names: Daniel B.
+      - family-names: Wapman
+        given-names: K. Hunter
+      - family-names: Venkateswaran
+        given-names: Apara
+      - family-names: Aoki-Sherwood
+        given-names: Ben
+    url: "https://github.com/LarremoreLab/SpringRank"
+  - type: software
+    title: "SpringRank (reference implementations)"
+    authors:
+      - family-names: De Bacco
+        given-names: Caterina
+      - family-names: Larremore
+        given-names: Daniel B.
+    url: "https://github.com/cdebacco/SpringRank"

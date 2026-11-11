@@ -1,0 +1,39 @@
+Package: springrank
+Type: Package
+Title: Scalable SpringRank for Large Sparse Directed Networks
+Version: 0.1.0
+Authors@R: c(
+    person("Jingying", "Wang", email = "wang@soziologie.uzh.ch",
+           role = c("aut", "cre", "cph"),
+           comment = "R port"),
+    person("Caterina", "De Bacco", role = c("ctb", "cph"),
+           comment = "SpringRank method; reference implementations (cdebacco/SpringRank)"),
+    person("Daniel B.", "Larremore", role = c("ctb", "cph"),
+           comment = "SpringRank method; Python package this port follows (LarremoreLab/SpringRank)"),
+    person("Cristopher", "Moore", role = "ctb",
+           comment = "SpringRank method"),
+    person("K. Hunter", "Wapman", role = "ctb",
+           comment = "Code of the Python package this port follows"),
+    person("Apara", "Venkateswaran", role = "ctb",
+           comment = "Code of the Python package this port follows"),
+    person("Ben", "Aoki-Sherwood", role = "ctb",
+           comment = "Code of the Python package this port follows"))
+Description: Sparse R implementation of SpringRank (De Bacco, Larremore and
+    Moore 2018, <doi:10.1126/sciadv.aar8260>) for ranking nodes of directed,
+    weighted networks such as worker flows between employers. Ranks are obtained
+    from one sparse linear system solved by preconditioned conjugate gradients,
+    so networks with millions of nodes and edges can be ranked. Also provides
+    the inverse temperature (hierarchy steepness), edge-direction predictions,
+    violation rates, the permutation test for hierarchy, and a Poisson
+    bootstrap for standard errors. This is an unofficial port of the Python
+    package 'SpringRank' by the Larremore Lab; it is not affiliated with or
+    endorsed by the original authors.
+License: GPL (>= 3)
+Copyright: See file inst/COPYRIGHTS
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: Matrix (>= 1.5-0), methods, stats
+Suggests: igraph, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

@@ -1,0 +1,13 @@
+bibentry(
+  bibtype = "Article",
+  header  = "Please cite the original SpringRank method:",
+  title   = "A physical model for efficient ranking in networks",
+  author  = c(person("Caterina", "De Bacco"), person("Daniel B.", "Larremore"),
+              person("Cristopher", "Moore")),
+  journal = "Science Advances",
+  year    = "2018",
+  volume  = "4",
+  number  = "7",
+  pages   = "eaar8260",
+  doi     = "10.1126/sciadv.aar8260"
+)
